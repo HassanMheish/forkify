@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "serve": "serve ./dist"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.4",
     "parcel": "^2.14.4",
+    "serve": "^14.2.4",
     "svgo": "^3.3.2"
   },
   "dependencies": {
